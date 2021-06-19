@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    
+    
+    
+}
+.first-big-box1{
+    background-color: rgb(57, 31, 20);
+    width: 100%;
+    height:100px;
+    display: inline-block;
+    border: 1px solid rgb(57, 31, 20);
+   
+}
+.fb1-phone{
+    display: inline-block;
+}
+.number{
+    display: inline-block;
+    color: whitesmoke;
+    padding-left: 60px;
+}
+.adres{
+    display: inline-block;
+    color: whitesmoke;
+    padding-left: 30px;
+}
+.fb1-p{
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+    padding-left: 10px;
+}
+.fb1-menu{
+    display: inline-block;
+    background-color: rgb(57, 31, 20);
+}
+.fb1-ul{
+    display: flex;
+    list-style: none;
+    padding-left: 130px;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: x-large;
+}
+.home{
+    padding-right: 20px;
+    transition-property: width;
+    
+    transition-duration: 2s;
+    
+}
+.blog{
+    padding-right: 20px;
+    transition-property: width;
+    
+    transition-duration: 2s;
+    
+}
+.about{
+    padding-right: 20px;
+    transition-property: width;
+    
+    transition-duration: 2s;
+}
+.contac{
+    padding-right: 55px;
+    transition-property: width;
+    transition-duration: 2s;
+}
+.room{
+    padding-right: 20px;
+    transition-property: width;
+
+    transition-duration: 2s;
+}
+.home:hover{
+    height: 0.5px;
+    color: rgb(186, 108, 78);
+}
+.room:hover{
+    height: 0.5px;
+    color:rgb(186, 108, 78);
+}
+.about:hover{
+    height: 0.5px;
+    color: rgb(186, 108, 78);
+}
+.contac:hover{
+    height: 0.5px;
+    color: rgb(186, 108, 78);
+}
+.blog:hover{
+    height: 0.5px;
+    color: rgb(186, 108, 78);
+}
+
+
+.fb1-button{
+    display: inline-block;
+    color: white;
+    border: 1px solid rgb(168, 84, 50) ;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color:rgb(168, 84, 50) ;
+    font-size: x-large;
+
+}
+.big-box2{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(57, 31, 20);
+    
+}
+.bg2-h1{
+    position: absolute;
+    padding-left: 8%;
+    padding-top: 5%;
+    font-size: 100px;
+    color: antiquewhite;
+    font-weight: 500;
+}
+.bg2-h4{
+    position: absolute;
+    padding-left:100px;
+    padding-top: 380px;
+    color: ghostwhite;
+    font-size: 30px;
+    font-weight: 200;
+}
+.bg2-h4-2{
+    position: absolute;
+    padding-left: 100px;
+    padding-top: 500px;
+    color: ghostwhite;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+

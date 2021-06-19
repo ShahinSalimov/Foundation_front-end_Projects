@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(../photo/arxan-fon2.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-color: #e3ffbe;
+}
+/*--bashliq-soz start--*/
+.head-word {
+  float: right;
+  width: 530px;
+  margin-top: 150px;
+}
+.head-word strong {
+  position: relative;
+  top: -140px;
+  right: 638px;
+  font-size: 40px;
+  color: darkcyan;
+  opacity: 0;
+}
+.head-word h1 {
+  font-size: 100px;
+  color: darkcyan;
+  padding-bottom: 30px;
+  margin-left: 235px;
+  cursor: pointer;
+}
+.head-word:hover strong{
+opacity: 1;
+}
+.head-word h4 {
+  font-size: 12px;
+  font-family: cursive;
+  color: darkslategray;
+}
+/*--bashliq-soz end--*/

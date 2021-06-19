@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.main-box1{
+background-color:#0C2635 ;
+width: 100%;
+height: 170px;
+}
+.mb1-container{
+    width: 1050px;
+    margin: 0 auto;
+    border: 1px solid #0C2635;
+}
+.mb1-row1{
+    text-align: left;
+    font-weight: 700;
+    position: absolute;
+    font-size: 40px;
+    margin-top: 17px;
+}
+.mb1-row2{
+    background-color: #DCDCDC;
+    width: 100%;
+    height: 50px;
+    color: #092F44;
+    margin-top: 135px;
+    border-radius: 5px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.mb1-row2 .mb1-ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+}
+.mb1-row2 .mb1-ul li{
+padding: 0px 25px 0px 0px;
+}
+.mb1-row2 .mb1-ul li:hover{
+   color: #B7C2C8;
+  
+}
+.main-box2{
+    background: #FFFFFF;
+    width: 100%;
+    height: 350px;
+
+}
+.mb2-container{
+    width: 1050px;
+    margin: 0 auto;
+   
+    
+}
+.mb2-row1{
+    background: #FFFFFF;
+width: 100%;
+height: 280px;
+display: flex;
+
+}
+.mb2-row2{
+background: #B9B9B9;
+  width: 100%;
+  height: 130px;  2
+}
+.mb2-row1-col-6{
+width: 50%;
+background-image: url(../photo/42253168-group-of-business-people-having-meeting-in-office.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.mb2-row1-col-3{
+width: 25%;
+padding-left: 2px;
+}
+.mb2-row2{
+display: flex;
+}
+.mb2-row2-col-4{
+    width: 33.33%;
+  
+}

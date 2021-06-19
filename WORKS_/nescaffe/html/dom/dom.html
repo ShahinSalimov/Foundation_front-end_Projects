@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dom/dom.js">
+</head>
+<body>
+   <button class="mybutton1" onclick="document.write('men seni sevirem')">
+       button1
+   </button>
+   <button class="mybutton2">
+    button2
+</button>
+<button class="mybutton3" onclick="button3()">
+    button3
+</button>
+<script>
+    document.getElementsByClassName('mybutton2').onclick=function(){
+        alert('button2')
+    }
+    function button3(){
+        alert('button3 ayrica funcsiyadan')
+    }
+</script>
+</body>
+</html>

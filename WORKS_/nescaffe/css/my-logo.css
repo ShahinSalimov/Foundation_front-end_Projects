@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+background-color: lightslategray;
+}
+.container{
+position: relative;
+width: 100%;
+height: 100%;
+}
+.logo{
+position: relative;
+display: flex;
+top: 20%;
+left: 20%;
+}
+.logo i{
+    color:#C185F2 ;
+    
+}
+.logo h2{
+   color:#F2B05F ; 
+}
+.logo img{
+    width: 120px;
+    object-fit: cover;
+ }

@@ -1,0 +1,25 @@
+body{
+
+}
+.row{
+    width: 100%;
+    height: 50px;
+}
+ul{
+    width: 100%;
+    height: 50px;
+    background: cadetblue;
+display: flex;
+list-style: none;
+justify-content: space-between;
+align-items: center;
+cursor: pointer;
+position: relative;
+}
+.contact {
+    position: relative;
+}
+.contact ul{
+    position: absolute;
+    display: block;
+}

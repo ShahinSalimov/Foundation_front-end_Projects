@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.big-box1{
+    background-color:rgb(244, 245, 240) ;
+height: 40px;
+
+}
+.bg1-main-box{
+    width: 1100px;
+    height: 40px;
+    margin: 0 auto;
+   border: 1px solid rgb(244, 245, 240);
+    display: flex;
+    justify-content: space-between;
+}
+.bg1-mb-email{
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.ikon{
+    padding-right: 5px;
+    color:rgb(107, 148, 42)
+}
+.email-text{
+    color: rgb(107, 148, 42);
+}
+.bg1-mb-social{
+    display: flex;
+    padding: 10px;
+    color: rgb(107, 148, 42);
+    cursor: pointer;
+
+}
+.send{
+    padding-left: 20px;
+    
+}
+.instagram{
+    padding-left: 20px;
+}
+.twitter{
+    padding-left: 20px;
+}
+.big-box2{
+    background-color:rgb(255, 255, 255) ;
+    height: 90px;
+    margin: 10px auto;
+}
+.bg2-main-box{
+    width: 1100px;
+    height: 90px;
+    margin: 0 auto;
+    border: 1px solid rgb(255, 255, 255) ;
+    display: flex;
+    
+}
+.bg2-head-text{
+    width: 260px;
+    display: inline-block;
+    text-align: left;
+    padding-top: 10px;
+    cursor: pointer;
+    
+    
+}
+.h1-bg2{
+    margin: 0;
+    padding-top: 10px;
+    color:rgb(14, 59, 4) ;
+    font-size: 16px;
+   line-height: 25px;
+}
+.h3-bg2{
+    margin: 0;
+    color:rgb(148, 148, 42);
+ font-size: 14px;
+ line-height: 10px;
+ padding-top: 5px;
+}
+h3{
+    color:rgb(148, 148, 42);
+    display: inline-block;
+    font-size: 15px;
+}
+h1{
+    color: black;
+    padding-left: 5px;
+    line-height: 5px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.bg2-p{
+margin: 0;
+color:rgb(181, 175, 168);
+font-size: 13px;
+}
+
+.bg2-adres{
+    padding-left: 80px;
+    display: flex;
+
+}
+.bg2-map{
+    padding-top: 35px; 
+    color:rgb(148, 148, 42)
+}
+.bg2-adres-text-phone{
+    width: 240px;
+    display: block;
+    padding-left: 35px;
+}
+.location-bg2{
+display: flex;
+margin: 0px 0px 0px 35px;
+}
+.ikon-bg2{
+    padding-right: 5px;
+    color: rgb(107, 148, 42);
+    padding-top: 35px;
+}
+.location-text-text1{
+    width: 240px;
+    display: block;
+    padding-left: 10px;
+}
+.location-h3{
+color: black;
+}
+.location-p{
+margin: 0;
+color: rgb(181, 175, 168);
+    font-size: 13px;
+}
+.REQUEST-A-QUOTE{
+    padding-top: 12px;
+}
+.request-h3{
+    font-size: 12px;
+    line-height: 20px;
+    border: 1px dashed rgb(107, 148, 42);
+    display: block;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.main-box3{
+    background-color:rgb(12, 21, 13) ;
+    height: 60px;
+    margin: 10px auto;
+    display: flex;
+   
+}
+.mn3-menu{
+    width: 800px;
+    height: 39px;
+    margin: 0px 50px 0px 0px;
+    display: flex;
+    color: white;
+    list-style: none;
+    justify-content: space-between;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.main-bg3{
+    background-color:rgb(243, 113, 33) ;
+    border: 1px solid white;
+    padding: 20px;
+    margin-left: 130px;
+    color: white;
+    cursor: pointer;
+}

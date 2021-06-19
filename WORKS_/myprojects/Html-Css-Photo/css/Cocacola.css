@@ -1,0 +1,162 @@
+
+.big-cocacola{
+    background-color: #E31E25;
+width: 100%;
+height: 260px;
+
+}
+.big-menu1{
+    width: 100%;
+    height: 55px;
+    background-color:#EEEEEE ;
+}
+.bm-ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 20px;
+    
+}
+.bm-ul li{
+    padding-right: 20px;
+    
+}
+.bm-ul li a:hover{
+    background-color: moccasin;
+    height: 90px;
+    width: auto;
+    border: 1px solid moccasin;
+    padding: 5px;
+   
+}
+.bm-ul li a{
+    color: #F40000; 
+    text-decoration: none;
+}
+
+.big-box2{
+    width: 100%;
+    height: 600px;
+}
+.text-bg2{
+    position: absolute;
+    color:moccasin;
+    padding-left: 790px;
+    padding-top: 350px;
+    font-weight: 400;
+    font-size: 55px;
+}
+.big-box3{
+    width: 100%;
+    height: 400px;
+    background-color:#EEEEEE ;
+}
+.bg3-photos{
+    margin-top: 50px;
+    margin-left: 135px;
+}
+.bg3-foto1{
+    display: inline-block;
+    padding-right: 50px;
+}
+.bg3-foto2{
+    display: inline-block;
+    padding-right: 50px;
+}
+.bg3-foto3{
+    display: inline-block;
+}
+.bg3-foto1:hover{
+    background-color:rgb(191, 191, 191) ;
+    border-top: 10px solid red;
+    cursor: pointer;
+    color: red;
+}
+.bg3-foto2:hover{
+    background-color:rgb(191, 191, 191);
+    border-top: 10px solid red;
+     cursor: pointer;
+     color: red;
+   
+}
+.bg3-foto3:hover{
+    background-color:rgb(191, 191, 191);
+    border-top: 10px solid red;
+    cursor: pointer;
+    color: red;
+}
+.social-bg4{
+width: 100%;
+height: 450px;
+background-color:#FFFFFF;
+margin-left: 400px;
+margin-top: 35px;
+}
+.facebook{
+    display: inline-block;
+    padding-right: 50px;
+}
+.instagram{
+    display: inline-block;
+}
+.facebook:hover{
+    background-color:rgb(191, 191, 191);
+    border-top: 10px solid red;
+    cursor: pointer;
+    color: red;
+}
+.instagram:hover{
+    background-color:rgb(191, 191, 191);
+    border-top: 10px solid red;
+    cursor: pointer;
+    color: red;
+}
+.bg4-h1{
+    padding-left: 70px;
+    padding-top: 60px;
+    font-size: 42px;
+    font-weight: 700;
+}
+.bg4-ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    padding-top: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+.bg4-ul li{
+    padding-right: 20px;
+    
+}
+.bg4-ul li a:hover{
+    background-color: moccasin;
+    height: 90px;
+    width: auto;
+    border: 1px solid moccasin;
+    padding: 5px;
+   
+}
+.bg4-ul li a{
+    color: #F40000; 
+    text-decoration: none;
+}
+.big-box5{
+    background-color:#FFFFFF ;
+    width: 100%;
+    height: 120px;
+}
+.box-end{
+    margin-left: 300px;
+    margin-top: 15px;
+}
+h5:hover{
+   color:red 
+}

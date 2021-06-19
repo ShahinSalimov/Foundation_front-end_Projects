@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+  list-style: none;
+}
+.big-head-menu {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  overflow-x: hidden;
+}
+.photo-slider-box {
+  position: relative;
+  width: 200%;
+  animation: animate 10s linear infinite;
+}
+
+.slider-photo {
+  position: relative;
+  width: 50%;
+  height: 600px;
+  float: left;
+}
+.slider-text {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-size: 1em;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+.slider-photo {
+  background-size: cover;
+}
+.slider-photo :nth-child(0) {
+  background: url(../organic-photoes/slide-img2.jpg);
+  width: 100%;
+  height: 100%;
+}
+.slider-photo :nth-child(1) {
+  background: url(../organic-photoes/slide-img1.jpg);
+  width: 100%;
+  height: 100%;
+}
+@keyframes animate {
+  0% {
+    left: 0;
+  }
+  15% {
+    left: 0;
+  }
+  20% {
+    left: -100%;
+  }
+  35% {
+    left: -100%;
+  }
+  40% {
+    left: -200%;
+  }
+  55% {
+    left: -200%;
+  }
+  60% {
+    left: -300%;
+  }
+  75% {
+    left: -300%;
+  }
+  80% {
+    left: -400%;
+  }
+  95% {
+    left: -400%;
+  }
+  
+  100% {
+      left: 0;
+  }
+}
+.bhm-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.bhm-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  background: burlywood;
+}
+.bhm-col-2 {
+  width: 16.66%;
+  align-items: center;
+  border-right: 1px solid #e5e5e5;
+  height: 80px;
+}
+.bhm-col-2 .logo {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.bhm-col-7 {
+  width: 58.33%;
+  border-left: 0.1px solid lightgrey;
+}
+.bhm-col-7 .head-ul {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  margin-left: 30px;
+  font-weight: 700;
+}
+.bhm-col-7 .head-ul li {
+}
+.bhm-col-7 .head-ul li a {
+  color: #80b435;
+}
+.bhm-col-3 {
+  width: 25%;
+}
