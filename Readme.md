@@ -8,4 +8,4 @@
 
 -Tədris müddətində hədəflədiyim layihə şablon(ları):
 (shablon)
-(http://jellydemos.com/html/elixir/index-multpage.html)
+(https://bootstrapmade.com/demo/Groovin/)
