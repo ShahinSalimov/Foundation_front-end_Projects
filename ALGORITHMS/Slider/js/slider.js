@@ -1,6 +1,5 @@
 let img = document.querySelector(".photos img");
 let imgsrc = [
-  "../photo/1.jpg",
   "../photo/2.jpg",
   "../photo/3.jpg",
   "../photo/4.jpg",
@@ -15,14 +14,14 @@ let cevir = 0;
 function goLeft() {
     if (cevir <1) {
         img.setAttribute("src", imgsrc[cevir]);
-        cevir = 9;
+        cevir = 8;
       } else {
         img.setAttribute("src", imgsrc[cevir]);
         cevir--;
       }
 }
 function goRight() {
-  if (cevir > 9) {
+  if (cevir > 8) {
     img.setAttribute("src", imgsrc[cevir]);
     cevir = 0;
   } else {

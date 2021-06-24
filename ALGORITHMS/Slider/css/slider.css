@@ -1,4 +1,6 @@
-
+body{
+    background-color: cadetblue;
+}
 .Slider{
     width: 1000px;
     margin: 0 auto;
