@@ -1,0 +1,22 @@
+body {
+    background: #a80077;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #66ff00, #a80077);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #66ff00, #a80077); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #e91621;
+    font-size: 130px;
+    font-family: Orbitron;
+    letter-spacing: 9px;
+  
+    
+   
+
+
+}

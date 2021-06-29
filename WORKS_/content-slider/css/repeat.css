@@ -8,19 +8,19 @@ body {
   display: inline-block;
 }
 
-.content-slider-container {
+.container {
   width: 1200px;
   margin: 0 auto;
 }
 
-.content-row {
+.row {
   display: flex;
   justify-content: space-between;
 }
 .col-1 {
   width: 8.33%;
 }
-.content-col-2 {
+.col-2 {
   width: 16.66%;
 }
 .col-3 {
