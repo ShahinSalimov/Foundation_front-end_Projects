@@ -20,7 +20,7 @@
 -25.06.2021
 
 
--"Manual-Slider" adlı tapşırığım tamamlandış
+-"Manual-Slider" adlı tapşırığım tamamlandı.
 
 -kodları-(https://github.com/ShahinSalimov/PragmatechFoundationProject/tree/master/ALGORITHMS/Slider)
 
