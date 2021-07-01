@@ -9,3 +9,12 @@
 -Tədris müddətində hədəflədiyim layihə şablon(ları):
 (shablon)
 (https://bootstrapmade.com/demo/Groovin/)
+
+
+## TƏDRİS MÜDDƏTİNDƏ TAMAMLADIĞIM İŞLƏR..
+
+-"GROOVİN" adlı əsas lahiyəmin HTML və CSS hissəsi yekunlaşdı.
+
+-Lahiyəmin kodları-(https://github.com/ShahinSalimov/PragmatechFoundationProject/tree/master/PROJECT_FRONTEND/Lahiyem)
+
+-25.06.2021
