@@ -1,36 +1,59 @@
-*{
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background-color: rgb(212, 182, 182);
-}
-.accordion-container{
-    width: 800px;
-    margin: 150px auto;
-}
-.accordion-box{
-    width: 100%;
-    padding: 10px;
-    
-}
-.accordion-box h1{
-    width: 100%;
-    height: 60px;
-    background-color: rgb(245, 142, 7);
-    text-align: center;
-    padding-top: 10px;
-    color: cadetblue;
+  }
+  
+  
+  body {
+      align-items: center;
+      background-color: #010c0f;
+      display: flex;
+      font-family: 'Poppins', sans-serif;
+      justify-content: center;
+      min-height: 100vh;
+  }
+  
+  .accordion {
+      max-width: 700px;
+  }
+  
+  .content-box {
+      margin: 10px 20px;
+      position: relative;
+  }
+  .content-box .label {
+    background-color: #2694af;
+    color: #ffffff;
     cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 5px;
+    padding: 10px;
+    position: relative;
 }
 
-.accordion-box p{
-    background-color:darkgray;
-    color: #ffffff;
-    padding: 15px;
-    font-size: 19px;
-}
+  .content-box .label:before {
+      content: '+';
+      font-size: 1.5rem;
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+  
+  .content-box.active .label:before {
+      content: '-';
+  }
+  
+  .accordion .content-box .content {
+      background-color: #ffffff;
+      height: 0;
+      overflow-x: hidden;
+      overflow-y: auto;
+      position: relative;
+      transition: height 0.5s ease,padding 0.5s;
+      
+  }
+  
+  .accordion .content-box.active .content {
+      height: 150px;
+      padding: 10px;
+  }
