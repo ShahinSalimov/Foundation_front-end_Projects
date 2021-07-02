@@ -1,0 +1,34 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: saddlebrown;
+}
+.accordion{
+    width: 750px;
+    margin: 200px auto;
+}
+.accordion-box{
+    width: 100%;
+}
+.accordion-box h1{
+    width: 100%;
+    height: 60px;
+    border: none;
+    background-color: seagreen;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+}
+.accordion-box h1:hover{
+    background-color: slateblue;
+}
+.accordion-box p{
+    width: 100%;
+    color: #ffffff;
+    padding: 10px;
+    display: none;
+}
