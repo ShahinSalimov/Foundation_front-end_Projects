@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+#header-box{
+    width: 1300px;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0.2px solid lightskyblue;
+    margin: 0 auto;
+}
+#header-box:hover{
+    background-color: skyblue;
+    cursor: pointer;
+}
+#header-box:hover .head-menu li a,.sosial i{
+    color: whitesmoke;
+}
+.header-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.row-header{
+    display: flex;
+    justify-content: space-between;  
+}
+.header-col-2{
+    width: 16.66%;
+}
+.header-col-2 .logo img{
+    width: 50px;
+    height: 80px;
+    object-fit: cover;
+    border: none;
+    border-radius: 50%;
+}
+
+.header-col-6{
+    width: 50%;
+}
+.header-col-6 .head-menu{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 10px 0px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    display: flex;
+
+}
+.header-col-6 .head-menu li{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 25px;
+}
+.header-col-6 .head-menu li a{
+    color: lightskyblue;
+}
+.header-col-6 .head-menu li a:hover{
+    font-size: 22px;
+    transition: .5s ease;
+}
+.header-col-4{
+    width: 33.33%;
+}
+.header-col-4 .sosial{
+    display: flex;
+    justify-content: space-evenly;
+    color: skyblue;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    left: 90px;
+}
+.sosial i{
+    color: skyblue;
+}
