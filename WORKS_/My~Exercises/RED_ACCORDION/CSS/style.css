@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: rgb(78, 17, 2); 
+}
+.accordion{
+    width: 1000px;
+    margin: 200px auto;
+}
+.accordion .main-btn{
+    width: 1000px;
+    height: 70px;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 5px solid #f04511;
+    transition: .8s ease;
+    border-radius: 6px;
+}
+
+.main-btn:hover{
+    background-color:#f51811 ;
+    color: #eedfe9;
+    font-size:33px ;
+    
+}
+.panel{
+    color: rgb(36, 35, 34);
+    background-color:#EEB59F ;
+    padding: 10px 15px;
+    display: none;
+    
+}
+
