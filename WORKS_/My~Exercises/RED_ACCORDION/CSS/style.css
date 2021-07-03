@@ -27,11 +27,12 @@ body{
     font-size:33px ;
     
 }
-.panel{
+.panel01, .panel02, .panel03{
     color: rgb(36, 35, 34);
     background-color:#EEB59F ;
     padding: 10px 15px;
     display: none;
+    transition: .7s;
     
 }
 
