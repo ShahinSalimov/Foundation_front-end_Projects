@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="../css/repeat.css">
 </head>
+
 <body>
     <section id="first-box">
         <div class="first-container">
@@ -24,7 +28,14 @@
                         <li><a href="#">ABOUT</a></li>
                         <li><a href="#">ALBUMS</a></li>
                         <li><a href="#">TOURS</a></li>
-                        <li><a href="#">PAGES</a></li>
+                        <li><a href="#">PAGES</a>
+                            <ul>
+                                <li><a href="#">Gallery</a></li>
+                                <li><a href="#">Ticket</a></li>
+                                <li><a href="#">Albums details</a></li>
+                                <li><a href="#">Blog single</a></li>
+                            </ul>
+                        </li>
                         <li><a href="#">BLOG</a></li>
                         <li><a href="#">CONTACT</a></li>
                     </ul>
@@ -34,6 +45,37 @@
                 </div>
             </div>
         </div>
+        <div class="gray-menu">
+            <a class="menu-btn">MENU<i class="fas fa-ellipsis-v"></i>
+                <div class="lines">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                 </div>
+            </a>
+            <div class="menu-list">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Albums</a></li>
+                    <li><a href="#">Tours</a> </li>
+                    <li><a href="#">Pages</a><i class="fas fa-angle-right"></i>
+                        <ul>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Ticket</a></li>
+                            <li><a href="#">Albums details</a></li>
+                            <li><a href="#">Blog single</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+
     </section>
+    <script src="../js/ap.js"></script>
 </body>
+
 </html>
