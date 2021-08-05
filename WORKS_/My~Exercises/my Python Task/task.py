@@ -1,10 +1,10 @@
 import json
-
+with open("books.json", "r") as f:
+        books = json.load(f)
 
 def findBookByName():
        # kitab adı daxil edildiyi zaman kitabın digər detallarını ekrana çap edin
-       with open("books.json", "r") as f:
-        books = json.load(f)
+      
 
         while True:
             secim = input("kitabin adi : ")
@@ -13,17 +13,16 @@ def findBookByName():
                 break
             else:
                 break
-            pass
+            
 
 def totalPaper():
        # bütün siyahıda var olan kitabların səhifə saylarının cəmini ekrana çap edin
-     with open("books.json", "r") as f:
-        books = json.load(f)
+    
  
      for i in books:
         total = sum(i["pages"] for i in books)
         print(total)
-        pass
+        
 
 def deleteByCountry():
        # ölkə adı daxil edildiyi zaman o ölkəyə aid olan kitabların json faylından silinməsini təmin edin
@@ -57,6 +56,7 @@ Tapsiriqlar="""
   -adı daxil olunan faylı kompyuterinizdə axtarın və o faylı yaradılan CopiedFiles qovluğuna kopyalayın..
 """
 while True:
+    
     print(Tapsiriqlar)
     enter=int(input("secmek istediyiniz funksiyanin nomresini daxil edin : "))
     if enter==1:
