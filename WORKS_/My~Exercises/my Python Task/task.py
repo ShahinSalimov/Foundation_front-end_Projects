@@ -33,16 +33,26 @@ def convertToList():
        pass
 def createFileOnDesktop():
         # desktop ekranınızda demo.txt adında fayl yaransın
-        pass
+ with open("demo.txt","w")as f:
+  pass
+create = os.listdir(f)
+print(create)
 
 def findFileByName():
         # kompyuterinizin c diskinde adı daxil olunan fayldan neçə ədəd olduğunu ekrana çap edin
         pass
     
-def copyFileToDesktop():
+def copyFileToDesktop(folder):
+    try:
+        if not os.path.exists(folder):
+            os.makedirs(folder)
+    except OSError:
+        print("Error: creating folder"+novi)
+
+createFolder('./CopiedFiles/')
         # desktopda CopiedFiles adında folder yaransın
         # adı daxil olunan faylı kompyuterinizdə axtarın və o faylı yaradılan CopiedFiles qovluğuna kopyalayın
-        pass
+ 
 Tapsiriqlar="""
 **********zehmet olmazsa etmek istediyiniz funksiyani secin : **********
 --------------------------------------------------------------------------------

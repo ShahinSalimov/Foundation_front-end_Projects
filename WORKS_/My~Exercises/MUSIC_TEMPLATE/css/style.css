@@ -10,8 +10,9 @@
 #first-box {
   background-image: url(../music-photos/back.jpg);
   width: 100%;
-  height: 500px;
-  background-size: 100%;
+  height: 800px;
+  background-size: 111%;
+
 }
 
 .first-container {
@@ -112,12 +113,13 @@
   transition: .7s ease;
   margin: 0 auto;
   overflow: hidden;
+  z-index: 3;
 
 }
 
 .open-menu {
   transition: 0.7s ease;
-  height: 333px;
+  height: 307px;
 }
 
 
@@ -129,19 +131,19 @@
   font-size: 26px;
   margin-left: 30px;
   transition: .5s ease;
-  height: 333px;
+  height: 307px;
   background: #4C4C4C;
 }
 
 .menu-list i {
   position: absolute;
-  left: 60px;
-  top: 156px;
+  left: 57px;
+  top: 144px;
   font-size: 15px;
 }
 
 .menu-list ul li {
-  margin: 5px;
+  margin: 2px;
   padding: 0px 0px 0px 10px;
   transition: background .4s;
 }
@@ -159,19 +161,9 @@
 .menu-list ul li:hover a {
   color: gray;
 }
-.menu-list li ul {
-  width: 150px;
-  position: absolute;
-  background: #fff;
-  top: 40px;
-  display: none;
-}
 
-.open {
-  display: block;
-  transition: all .6s ease;
-  
-}
+
+
 
 .menu-btn {
   position: absolute;
@@ -190,11 +182,54 @@
   right: 15px;
 }
 
-.lines {
+#text-slider {
   position: absolute;
+  margin: 150px;
+  width: 100%;
+  height: 100%;
+  top: 264px;
+}
+
+.slider {
+  position: absolute;
+  margin-right: 50px;
 
 }
 
-.line {
-  position: absolute;
+.slider span {
+  font-family: "Satisfy", cursive;
+  font-size: 34px;
+  color: #fff;
+}
+
+.slider h2 {
+  font-size: 60px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.slider p {
+  max-width: 600px;
+  margin-bottom: 30px;
+  color: #fff;
+  margin-top: 30px;
+  line-height: 25px;
+}
+
+.slider .btn {
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  padding: 17px 33px 15px;
+  min-width: 149px;
+  line-height: 1;
+  text-align: center;
+  font-weight: 700;
+  border: none;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #503aca 0%, #ea34ff 100%);
+  cursor: pointer;
 }

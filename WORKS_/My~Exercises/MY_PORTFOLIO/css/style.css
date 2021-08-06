@@ -5,19 +5,26 @@
     list-style: none;
     text-decoration: none;
 }
+
 #header-box{
     width: 1300px;
-    height: 80px;
+    height: 90px;
     display: flex;
     justify-content: space-evenly;
-    border-bottom: 0.2px solid lightskyblue;
+    border-bottom: 0.2px solid rgb(57, 194, 212);
     margin: 0 auto;
+    border-radius: 5px;
+    
 }
 #header-box:hover{
-    background-color: skyblue;
+    background-color: #738194;
     cursor: pointer;
+transition: 1.5s;
 }
 #header-box:hover .head-menu li a,.sosial i{
+    color: whitesmoke;
+}
+#header-box:hover .sosial i{
     color: whitesmoke;
 }
 .header-container{
@@ -37,6 +44,7 @@
     object-fit: cover;
     border: none;
     border-radius: 50%;
+    margin: 4px;
 }
 
 .header-col-6{
@@ -61,10 +69,7 @@
 .header-col-6 .head-menu li a{
     color: lightskyblue;
 }
-.header-col-6 .head-menu li a:hover{
-    font-size: 22px;
-    transition: .5s ease;
-}
+
 .header-col-4{
     width: 33.33%;
 }
