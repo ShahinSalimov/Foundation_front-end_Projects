@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create</title>
+    <style>
+        .mb-3 input{
+        padding:10px 100px;
+        margin:10px 0px;
+        border:2px solid black;
+        }
+        body{
+        background:#759634;
+        }
+
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col mt-4">
+             <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/create">elave et</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/show">kitablarin siyahisi</a>
+                </li>
+            </ul>
+            <form action="/create" method="POST" style="margin-left:40%">
+                <div class="mb-3">
+                    <input type="text" class="form-control" name="muellif" placeholder="kitabin muellifi">
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control" name="ad" placeholder="kitabin adi">
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control" name="tarix" placeholder="kitabin yazilma tarixi">
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control" name="sehife" placeholder="kitabin sehifesi">
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control" name="xulase" placeholder="kitaba aid bir nece cumle">
+                </div>
+                <button style="background: #a52a46;margin-left: 45px;padding: 10px 130px;color: burlywood;font-family: cursive;border-radius: 13px;" type="submit" class="btn btn-primary">ELAVE-ET</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
