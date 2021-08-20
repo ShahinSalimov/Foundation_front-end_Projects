@@ -19,11 +19,10 @@
             <table class="table">
     <thead>
     <tr>
-        <th>{{muellif}}</th>
-        <th>{{ad}}</th>
-        <th>{{tarix}}</th>
-        <th>{{sehife}}</th>
-        <th>{{xulase}}</th>
+        <th>Muellifi : | {{muellif}}</th>
+        <th>Kitabin adi : | {{ad}}</th>
+        <th>Kitabin tarixi : | {{tarix}}</th>
+        <th>Kitabin sehifesi : | {{sehife}}</th>
     </tr>
     </thead>
     <tbody>
@@ -33,7 +32,7 @@
             <td>{{ book['ad'] }}</td>
             <td>{{book['tarix']}}</td>
             <td>{{book['sehife']}}</td>
-            <td>{{book['xulase']}}</td>
+            <td><a class="nav-link" href="#">kitabi oxu</a></td>
         </tr>
         {% endfor %}
 
