@@ -2,52 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Create</title>
-    <style>
-        .mb-3 input{
-        padding:10px 100px;
-        margin:10px 0px;
-        border:2px solid black;
-        }
-        body{
-        background:#759634;
-        }
-
-        }
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css" />
+    <title>Create Book</title>
 </head>
 <body>
-<div class="container">
-    <div class="row">
-        <div class="col mt-4">
-             <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="/create">elave et</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/show">kitablarin siyahisi</a>
-                </li>
-            </ul>
-            <form action="/create" method="POST" style="margin-left:40%">
-                <div class="mb-3">
-                    <input type="text" class="form-control" name="muellif" placeholder="kitabin muellifi">
-                </div>
-                <div class="mb-3">
-                    <input type="text" class="form-control" name="ad" placeholder="kitabin adi">
-                </div>
-                <div class="mb-3">
-                    <input type="text" class="form-control" name="tarix" placeholder="kitabin yazilma tarixi">
-                </div>
-                <div class="mb-3">
-                    <input type="text" class="form-control" name="sehife" placeholder="kitabin sehifesi">
-                </div>
-                <div class="mb-3">
-                    <input type="text" class="form-control" name="metn" placeholder="kitabin metni">
-                </div>
-                <button style="background: #a52a46;margin-left: 25px;padding: 10px 130px;color: burlywood;font-family: cursive;border-radius: 13px;" type="submit" class="btn btn-primary">ELAVE-ET</button>
-            </form>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="/create_book" class="choose-btn nav-link">Create</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/show" class="choose-btn nav-link">Show</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/admin" class="choose-btn nav-link">Admin</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a style="color:blue; font-size:20px" href="/create" class="choose-btn nav-link">Elave et</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:red; font-size:20px" href="/show" class="choose-btn nav-link">Show</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:orange;font-size:20px; " href="/admin" class="choose-btn nav-link">SHAKO (Admin)</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+                <form action="/create", method="POST">
+                    <label class="form-label">kitabin adi...</label>
+                    <input type="text" class="form-control"  name='ad'>
+                    <label class="form-label">shair kimdir?</label>
+                    <input type="text" class="form-control"  name='shair'>
+                    <label class="form-label">kitabin tarixi....</label>
+                    <input type="text" class="form-control"  name='tarix'>
+                    <label class="form-label">kitabin sehifesi.....</label>
+                    <input type="text" class="form-control"  name='sehife'>
+                    <label class="form-label">kitabin icindekileri..</label>
+                    <input type="text" class="form-control"  name='metn'> <br>
+                    <button type="submit" class="btn btn-primary">Elave et</button>
+                </form>
+            </div>
         </div>
     </div>
-</div>
 </body>
 </html>
